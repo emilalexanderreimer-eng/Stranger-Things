@@ -1,0 +1,38 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 10px;
+background-color: #f0f0f0;
+}
+/* Die Layout-Tabelle */
+table#layout {
+width: 100%;
+border-collapse: collapse;
+}
+/* Navigationsbereich */
+td#nav {
+background-color: red;
+padding: 10px;
+}
+/* Linke Sidebar */
+td#sidebar-links {
+background-color: #dddddd;
+padding: 10px;
+vertical-align: top;
+}
+/* Hauptbereich */
+td#inhalt {
+background-color: #ffffff;
+padding: 15px;
+vertical-align: top;
+}
+/* Rechte Sidebar */
+td#sidebar-rechts {
+background-color: #dddddd;
+padding: 10px;
+vertical-align: top;
+}
+a.nav-button.aktiv {
+background-color: #ffffff;
+color: #333333;
+}
